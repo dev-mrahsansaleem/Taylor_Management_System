@@ -1,0 +1,4 @@
+kurta
+length
+shoulders
+height

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SummaryDataSet" targetNamespace="http://tempuri.org/SummaryDataSet.xsd" xmlns:mstns="http://tempuri.org/SummaryDataSet.xsd" xmlns="http://tempuri.org/SummaryDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SummaryDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SummaryDataSet" msprop:Generator_UserDSName="SummaryDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="summary" msprop:Generator_TableClassName="summaryDataTable" msprop:Generator_TableVarName="tablesummary" msprop:Generator_TablePropName="summary" msprop:Generator_RowDeletingName="summaryRowDeleting" msprop:Generator_RowChangingName="summaryRowChanging" msprop:Generator_RowEvHandlerName="summaryRowChangeEventHandler" msprop:Generator_RowDeletedName="summaryRowDeleted" msprop:Generator_UserTableName="summary" msprop:Generator_RowChangedName="summaryRowChanged" msprop:Generator_RowEvArgName="summaryRowChangeEvent" msprop:Generator_RowClassName="summaryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="cFullName" msprop:Generator_ColumnVarNameInTable="columncFullName" msprop:Generator_ColumnPropNameInRow="cFullName" msprop:Generator_ColumnPropNameInTable="cFullNameColumn" msprop:Generator_UserColumnName="cFullName" type="xs:string" minOccurs="0" />
+              <xs:element name="cCNIC" msprop:Generator_ColumnVarNameInTable="columncCNIC" msprop:Generator_ColumnPropNameInRow="cCNIC" msprop:Generator_ColumnPropNameInTable="cCNICColumn" msprop:Generator_UserColumnName="cCNIC" type="xs:string" minOccurs="0" />
+              <xs:element name="cAddress" msprop:Generator_ColumnVarNameInTable="columncAddress" msprop:Generator_ColumnPropNameInRow="cAddress" msprop:Generator_ColumnPropNameInTable="cAddressColumn" msprop:Generator_UserColumnName="cAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="cMobileNo" msprop:Generator_ColumnVarNameInTable="columncMobileNo" msprop:Generator_ColumnPropNameInRow="cMobileNo" msprop:Generator_ColumnPropNameInTable="cMobileNoColumn" msprop:Generator_UserColumnName="cMobileNo" type="xs:string" minOccurs="0" />
+              <xs:element name="cRemarks" msprop:Generator_ColumnVarNameInTable="columncRemarks" msprop:Generator_ColumnPropNameInRow="cRemarks" msprop:Generator_ColumnPropNameInTable="cRemarksColumn" msprop:Generator_UserColumnName="cRemarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

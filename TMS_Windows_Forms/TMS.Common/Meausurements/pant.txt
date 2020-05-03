@@ -1,0 +1,4 @@
+pant
+length
+waist
+narrow
